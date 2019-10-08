@@ -49,7 +49,10 @@ nav a {
     padding: 0.5em 1em;
 }
 
-.photos {
+.photos { 
+    display: grid;
+    grid-templates-columns: 1fr 1fr;
+    grid-gap: 1px;
     list-style: none;
     margin: 0;
     padding: 0;
